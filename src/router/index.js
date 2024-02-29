@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 // createWebHistory创建history模式的路由
-import { Layout } from '@/views/Layout/index.vue'
-import { Login } from '@/views/Login/index.vue'
+import Layout  from '@/views/Layout/index.vue'
+import  Login  from '@/views/Login/index.vue'
 
 
 const router = createRouter({
