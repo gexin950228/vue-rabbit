@@ -7,7 +7,8 @@ getCategory().then(res => {
 </script>
 
 <template>
-  <el-button type="primary">Primary</el-button>
+  <!-- 以及路由接口 -->
+  <RouterView />
 </template>
 
 <style scoped>
