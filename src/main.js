@@ -8,6 +8,8 @@ import router from './router'
 
 const app = createApp(App)
 
+// 测试接口函数
+
 app.use(createPinia())
 app.use(router)
 
